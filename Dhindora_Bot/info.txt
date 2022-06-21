@@ -18,7 +18,11 @@ Use --> pip install python-telegram-bot
 
 install it in your current Virtual Environment 
 
+========Method 1  =======
+
 Polling Program --> Just a Program which enables Bot to keep On Interacting with Telegram Server Correctly.
+=======Method 2 =====
+Webhook Server Program --> It reduces the Unnecessary Calling requests to the Telegram Server By Providing its Own Call back  Url...
 
 
 By Default --> / is a Command For any Telegram Bot Example    --> /start , /do etc .....

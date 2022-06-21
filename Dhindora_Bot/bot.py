@@ -1,12 +1,5 @@
 # Enable Logging 
-from cgitb import text
-from distutils.log import error
-from email.headerregistry import MessageIDHeader
-from email.message import Message
 import logging as log
-from tokenize import Token
-from setuptools import Command
-from telegram import Sticker 
 from telegram.ext import Updater , CommandHandler,MessageHandler,Filters
 # print(log)
 # Decides Level Of Warning 
@@ -19,14 +12,14 @@ TOKEN = "5571563522:AAEczm874wVQKtCu2rYYxbulhxFkwcXa24c"
 
 # Start Function when user says /start
 def start(bot,update):
-    print(update)
+    # print(update)
     author = update.message.from_user.first_name  
     reply = "Hi! {}".format(author)
     # msg = update.message.text 
     bot.send_message(chat_id = update.message.chat_id,text=reply )
     
 def _help(bot,update):
-    help_txt = "Hey! I am Here Two Help You "
+    help_txt = "Hey! I am Here To Help You "
     bot.send_message(chat_id = update.message.chat_id,text=help_txt )
      
 def echo_text(bot,update):
@@ -35,7 +28,7 @@ def echo_text(bot,update):
 def echo_sticker(bot,update):
     bot.send_sticker(chat_id = update.message.chat_id,sticker=update.message.sticker.file_id )
 def error(bot,update):
-    log.error("Sorry for the Inconvenience We're Working On Some Updates ")
+    logger.error("Update '%s' Caused Error '%s' ",update,update.error)
     
 # Handler Function 
 def main():
@@ -50,7 +43,7 @@ def main():
     dp.add_error_handler(error)    
     # Just Triggers The Polling 
     updater.start_polling()
-    log.info("Started Polling  . . .  . ")
+    logger.info("Started Polling  . . .  . ")
     updater.idle()
     
 if __name__ == "__main__":
