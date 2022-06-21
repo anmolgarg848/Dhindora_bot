@@ -27,3 +27,40 @@ Webhook Server Program --> It reduces the Unnecessary Calling requests to the Te
 
 
 By Default --> / is a Command For any Telegram Bot Example    --> /start , /do etc .....
+======================================================WhatsApp Dhindora Bot Details ===================================================================
+A server Application is an Application On the Web Which is Constantly Running.--> Because instead of Human A Bot Will be Replying 
+
+
+TWILLIO --> Cloud Communication Platform for Building voice sms text images Application Under Developer Environment 
+
+We used it Becoz To use Whatsapp Api's We required Permission from Whatsapp directly Which Takes Time 
+
+=================== TWILLIO's SANDBOX Server  Chain  ============ 
+
+Setting Up Call Back url --> which will receive and reply sent back response to the user 
+
+Setting Up Flask Server Application 
+
+
+
+=============Required Packages ============
+pip install flask twilio
+
+===========Using Ngrok Service  =========
+this website generates Public web url for  Local Host url Under Developer Applications 
+install ngrok zip file 
+=======Tunneling of Myu local host to the general url ========
+use --> ./ngrok http <local host port number ex-- 5000>
+
+
+========Cloud Deployment ==============
+Heroku --> Cloud Platform 
+
+use --> pip install gunicorn 
+
+Files Required 
+
+Procfile 
+runtime.txt
+
+
