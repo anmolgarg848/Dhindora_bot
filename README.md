@@ -1,0 +1,29 @@
+# Dhindora_bot
+Documentation Link-->https://github.com/python-telegram-bot/python-telegram-bot
+
+==> Bot Father 
+
+Use this token to access the HTTP API:
+5571563522:AAEczm874wVQKtCu2rYYxbulhxFkwcXa24c
+
+Echo Bot 
+
+Separate Virtual Environment for isolated Python Version  
+python3 -m venv myvenv
+
+myvenv/Scripts/activate
+
+To Install Dependencies --> Telegram Api Has Separate python3 Wrapper --> Python Telegram Bot Library 
+
+Use --> pip install python-telegram-bot
+
+install it in your current Virtual Environment 
+
+========Method 1  =======
+
+Polling Program --> Just a Program which enables Bot to keep On Interacting with Telegram Server Correctly.
+=======Method 2 =====
+Webhook Server Program --> It reduces the Unnecessary Calling requests to the Telegram Server By Providing its Own Call back  Url...
+
+
+By Default --> / is a Command For any Telegram Bot Example    --> /start , /do etc .....
