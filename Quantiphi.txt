@@ -1,0 +1,21 @@
+================ Quantiphi  =====================
+https://www.geeksforgeeks.org/quantiphi-interview-experience-on-campus/
+==============Coding Question = ==============
+
+Decorators in Python, deep copy vs shallow copy, lambda function, and its relevance, etc.
+
+Prime Number Nth 
+
+Two sum --> Cnt Number of Pairs equals to k in an Unsorted Array 
+
+DBMS--> SQL 
+
+OS  
+
+PYTHON 
+
+OOPS
+
+Projects --> Dhindora (idea and whole Plan to impress ) --> Bots
+
+Machine Learning --> Definition  , Supervised and Un Supervised
