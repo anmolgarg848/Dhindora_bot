@@ -3,7 +3,7 @@ Documentation Link-->https://github.com/python-telegram-bot/python-telegram-bot
 ==> Bot Father 
 
 Use this token to access the HTTP API:
-5571563522:AAEczm874wVQKtCu2rYYxbulhxFkwcXa24c
+
 
 Echo Bot 
 
